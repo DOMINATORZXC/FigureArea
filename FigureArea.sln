@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigureArea", "FigureArea\FigureArea.csproj", "{4F72552A-2027-4478-9149-BCD11C857F8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Methods", "Methods", "{368ED4C3-5904-449B-8C5A-B9CB943D927E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods.FigureArea", "Methods.FigureArea\Methods.FigureArea.csproj", "{24A086D8-9153-41DA-9B32-D35F08EE6CF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Figure", "Figure", "{DA71BC1B-C54B-438B-9DE7-C553640E2389}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigureTypes", "FigureTypes\FigureTypes.csproj", "{BB569DE9-D7F8-4042-BFE3-3FCC30E8BBAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F72552A-2027-4478-9149-BCD11C857F8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F72552A-2027-4478-9149-BCD11C857F8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F72552A-2027-4478-9149-BCD11C857F8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F72552A-2027-4478-9149-BCD11C857F8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24A086D8-9153-41DA-9B32-D35F08EE6CF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24A086D8-9153-41DA-9B32-D35F08EE6CF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24A086D8-9153-41DA-9B32-D35F08EE6CF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24A086D8-9153-41DA-9B32-D35F08EE6CF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB569DE9-D7F8-4042-BFE3-3FCC30E8BBAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB569DE9-D7F8-4042-BFE3-3FCC30E8BBAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB569DE9-D7F8-4042-BFE3-3FCC30E8BBAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB569DE9-D7F8-4042-BFE3-3FCC30E8BBAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{24A086D8-9153-41DA-9B32-D35F08EE6CF9} = {368ED4C3-5904-449B-8C5A-B9CB943D927E}
+		{BB569DE9-D7F8-4042-BFE3-3FCC30E8BBAA} = {DA71BC1B-C54B-438B-9DE7-C553640E2389}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B11C7CA-3E1C-488D-948C-560607448721}
+	EndGlobalSection
+EndGlobal
