@@ -1,13 +1,12 @@
-﻿using FigureTypes.Interfaces;
+﻿using FigureTypes.Figures;
+using FigureTypes.Interfaces;
 using Methods.FigureArea;
 using System.Transactions;
 
 Console.WriteLine("Enter figure type:");
 Console.WriteLine("circle/square/triangle/rectangle");
 string figureType  = Console.ReadLine();
-
 IFigure figure = null;
-
 switch(figureType.ToLower()) 
 {
     case "circle":
@@ -22,7 +21,18 @@ switch(figureType.ToLower())
         double triangleB = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine("Enter side C");
         double triangleC = Convert.ToDouble(Console.ReadLine());
-        figure = FigureFactory.CreateFigure("triangle",triangleA,triangleB,triangleC);
+        Triangle triangle = new Triangle(triangleA,triangleB,triangleC);
+        bool IsRightTriangle = triangle.IsRightTriangle();
+        if (IsRightTriangle)
+        {
+            Console.WriteLine("It's right triangle");
+            figure = FigureFactory.CreateFigure("triangle", triangleA, triangleB, triangleC);
+        }
+        else
+        {
+            Console.WriteLine("It's triangle");
+            figure = FigureFactory.CreateFigure("triangle", triangleA, triangleB, triangleC);
+        }
         break;
     case "square":
         Console.WriteLine("Enter side A");
@@ -58,6 +68,5 @@ switch(figureType.ToLower())
         Console.WriteLine("Unknown figure type");
         break;
 }
-
 double area = figure.CalcArea();
 Console.WriteLine($"Area equal: {area}");

@@ -13,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Figure", "Figure", "{DA71BC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigureTypes", "FigureTypes\FigureTypes.csproj", "{BB569DE9-D7F8-4042-BFE3-3FCC30E8BBAA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FigureArea.Tests", "FigureArea.Tests", "{FCAA4062-79A0-4F69-9867-838DB4C36454}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigureArea.Test", "FigureArea.Test\FigureArea.Test.csproj", "{BEE4572B-D10F-4325-A0EF-A469A4C2C057}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +35,10 @@ Global
 		{BB569DE9-D7F8-4042-BFE3-3FCC30E8BBAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB569DE9-D7F8-4042-BFE3-3FCC30E8BBAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB569DE9-D7F8-4042-BFE3-3FCC30E8BBAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEE4572B-D10F-4325-A0EF-A469A4C2C057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEE4572B-D10F-4325-A0EF-A469A4C2C057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEE4572B-D10F-4325-A0EF-A469A4C2C057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE4572B-D10F-4325-A0EF-A469A4C2C057}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +46,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{24A086D8-9153-41DA-9B32-D35F08EE6CF9} = {368ED4C3-5904-449B-8C5A-B9CB943D927E}
 		{BB569DE9-D7F8-4042-BFE3-3FCC30E8BBAA} = {DA71BC1B-C54B-438B-9DE7-C553640E2389}
+		{BEE4572B-D10F-4325-A0EF-A469A4C2C057} = {FCAA4062-79A0-4F69-9867-838DB4C36454}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8B11C7CA-3E1C-488D-948C-560607448721}
